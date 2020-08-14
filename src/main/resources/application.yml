@@ -1,0 +1,19 @@
+server:
+  port: 8888
+  servlet:
+    context-path: '/springboot'
+spring:
+  datasource:
+    username: scott
+    password: cyh0511
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+  jackson:
+    date-format: yyyy-MM-dd
+  resources:
+    static-locations: classpath:/META- INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/,classpath:/templates/ # 静态资源访问路径
+  thymeleaf:
+    cache: false
+    mode: HTML5
+  messages:
+    encoding: utf-8
