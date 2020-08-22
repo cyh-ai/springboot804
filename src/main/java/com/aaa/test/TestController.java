@@ -21,6 +21,9 @@ public class TestController {
     public void del(){
         System.out.println("删除！！！！！");
         System.out.println("删除错了！！！！！");
+
+        System.out.println("新的测试！！！");
+
     }
 
 }
