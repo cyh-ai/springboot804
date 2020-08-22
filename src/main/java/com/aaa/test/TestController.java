@@ -12,11 +12,14 @@ public class TestController {
         System.out.println("本地测试！");
         System.out.println("远程测试！");
         System.out.println("第五");
-
         System.out.println("最后一次！！！！！");
-
         System.out.println("第六");
 
         System.out.println("超强无敌大宇宙！");
     }
+
+    public void del(){
+        System.out.println("删除！！！！！");
+    }
+
 }
