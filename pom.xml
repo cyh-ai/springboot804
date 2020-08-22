@@ -47,11 +47,10 @@
             <version>2.1.5</version>
         </dependency>
 
-        <!-- orcle -->
+
         <dependency>
-            <groupId>aaa</groupId>
-            <artifactId>ojdbc6</artifactId>
-            <version>6</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
 
         <!-- 分页插件 -->
